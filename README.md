@@ -62,4 +62,4 @@ actions, observations, beliefs, transitions, rewards, action_probs = agent.perfo
 
 ## Acknowledgments
 
-The first tutorial is adapted from the [pymdp variational free energy tutorial](https://pymdp-rtd.readthedocs.io/en/latest/notebooks/free_energy_calculation.html). The model implementations are based on the work of [Dr. Gijsen and co-workers](https://www.nature.com/articles/s41598-022-21766-4) |
+The first tutorial is adapted from the [pymdp variational free energy tutorial](https://pymdp-rtd.readthedocs.io/en/latest/notebooks/free_energy_calculation.html). The model implementations are based on the work of [Dr. Gijsen and co-workers](https://www.nature.com/articles/s41598-022-21766-4) 
