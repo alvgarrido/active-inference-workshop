@@ -8,7 +8,7 @@ Two Jupyter tutorials exploring variational free energy, belief updating, and de
 | --- | --- |
 | `tutorial_1_pymdp.ipynb` | Compute posterior beliefs, surprise, and variational free energy in a categorical model, then minimize free energy with automatic differentiation. |
 | `tutorial_2_two_step_task.ipynb` | Simulate an active inference agent in a [two-step task](https://www.nature.com/articles/s41598-022-21766-4), inspect its beliefs and choices, and compare reward, belief updating, and surprise across agents. |
-| `models.py` | The `learn_and_act` agent, with active inference and reinforcement learning implementations. |
+| `models.py` | The `learn_and_act` agent, with active inference and reinforcement learning implementations, which are based on the implementation of [Dr. Gijsen, et al.,](https://www.nature.com/articles/s41598-022-21766-4) |
 | `utils/twostep_environment.py` | Generate two-step environments with drifting or changing reward and transition probabilities. |
 | `utils/twostep_support.py` | Probability utilities, plotting, behavioral summaries, and MATLAB/pickle file helpers. |
 | `requirements.txt` | Scientific Python dependencies and Jupyter tooling. |
@@ -62,4 +62,4 @@ actions, observations, beliefs, transitions, rewards, action_probs = agent.perfo
 
 ## Acknowledgments
 
-The first tutorial is adapted from the [pymdp variational free energy tutorial](https://pymdp-rtd.readthedocs.io/en/latest/notebooks/free_energy_calculation.html). 
+The first tutorial is adapted from the [pymdp variational free energy tutorial](https://pymdp-rtd.readthedocs.io/en/latest/notebooks/free_energy_calculation.html). The model implementations are based on the work of [Dr. Gijsen and co-workers](https://www.nature.com/articles/s41598-022-21766-4) |
